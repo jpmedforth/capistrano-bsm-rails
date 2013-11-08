@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name        = "capistrano-bsm-rails"
   s.summary     = "Capistrano rails helpers"
   s.description = s.summary.dup
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
 
   s.authors     = ["Black Square Media"]
   s.email       = "info@blacksquaremedia.com"
