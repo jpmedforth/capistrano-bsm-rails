@@ -8,7 +8,7 @@ task :console => [:set_rails_env] do
 end
 
 desc "Run rake tasks on primary app tier via CMD='task1 task2'"
-task :rake => [:set_rails_env] do
+task :raketask => [:set_rails_env] do
   abort "Please provide a CMD env var, e.g. CMD='db:mirate'" unless ENV['CMD']
   on primary :app do
     hostname = find_servers_for_task(current_task).first
